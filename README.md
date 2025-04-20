@@ -2,39 +2,46 @@
 
 Final task for React 2025 Q1
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+The project was implemented as a final task for the React course of RS School. 
 
-First, run the development server:
+Participants:
+1. Danila Kotenkov ([GitHub @FroZe36](https://github.com/FroZe36)); 
+2. Ekaterina Grigoreva ([GitHub @katiegrigoreva](https://github.com/katiegrigoreva)); 
+3. Alexandr Kabanau ([GitHub @AlexKabanau](https://github.com/AlexKabanau));
+
+Mentor:
+Andrey Pleskunou ([GitHub @mgg43err](https://github.com/mgg43err))
+
+## Description
+*Project goal:* provide an interactive and seamless experience to users interacting with any RESTful API. The application ensures a smooth journey for the user. It includes features such as:
+- user registration and login;
+- REST client with method selection, URL, headers, variables;
+- history section.
+
+## Project Stack
+Development:
+1. TypeScript
+2. Next
+3. Vitest
+
+Maintenance:
+1. Prettier
+2. ESLint
+3. Husky 
+
+## Installation and scripts
+To run the project locally, consider to use the correct version of Node.js and npm, please be sure to install nvm([Node Version Manager](https://github.com/nvm-sh/nvm)) first.
+You should use node version at least v22.14.0, npm v11.2.0.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# check out the repository
+git clone https://github.com/M-M-Band/rest-client-app.git
+# install required NPM dependencies
+npm install
+# configure Husky
+npm run prepare
+# try to run the available tests to make sure everything works fine
+npm run test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
