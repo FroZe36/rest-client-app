@@ -1,11 +1,13 @@
 ## Description of changes
-*What was done?*
+
+_What was done?_
 
 ## Change type
-- [ ] Bug fix  
-- [ ] New feature  
+
+- [ ] Bug fix
+- [ ] New feature
 - [ ] Refactoring
-- [ ] Documentation update  
-- [ ] Release  
+- [ ] Documentation update
+- [ ] Release
 
 ## Screenshots (if needed)

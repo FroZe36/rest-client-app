@@ -1,5 +1,7 @@
 # rest-client-app
+
 Final task for React 2025 Q1
+
 
 The project was implemented as a final task for the React course of RS School. 
 

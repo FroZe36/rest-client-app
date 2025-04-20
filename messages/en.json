@@ -1,0 +1,69 @@
+{
+  "Main": {
+    "title": "Welcome to <span>REST Client</span>",
+    "description": "A REST client enables and simplifies communication with any open RESTful API. It offers an abstraction over HTTP libraries that allows for convenient conversion to an HTTP request, and the creation of objects from an HTTP response. <br></br>To start using the application please sign up or login.",
+    "authorizedTitle": "Welcome",
+    "authorizedDescription": "We are glad to see you again. You now have access to all features of your account.",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "history": "History",
+    "variables": "Variables",
+    "errorPageDescription": "Sorry, something went wrong",
+    "formSignInDescription": "Good to see you again! Sign in to continue your journey.",
+    "formSignUpDescription": "Let's get started! Create your account in just a few steps.",
+    "formSignInEmailPlaceholder": "Enter your email address",
+    "formSignInPasswordPlaceholder": "Enter your password",
+    "formSignUpNamePlaceholder": "Enter your name",
+    "formSignUpEmailPlaceholder": "Enter your email",
+    "formSignUpPasswordPlaceholder": "Choose a password",
+    "formSignUpConfirmPasswordPlaceholder": "Password again"
+  },
+  "404": {
+    "title": "OH NO! ERROR 404!",
+    "description": "This page doesn’t exist or was removed. We suggest you go back to home",
+    "backButton": "Return home"
+  },
+  "about": {
+    "title": "Our team",
+    "name1": "Danila Kotenkov",
+    "name2": "Ekaterina Grigoreva",
+    "name3": "Alexandr Kabanau",
+    "description1": "Danila is a promising young developer who's taken on the leadership role with enthusiasm. He's been coordinating the team's efforts and hasn't been afraid to make architectural decisions. He has quickly developed his expertise in JavaScript frameworks and RESTful API integration. Dan is eager to learn and solve complex problems what made him an inspiring team leader.",
+    "description2": "Ekaterina is a creative beginner with a natural talent for user experience design. Though she is new to professional development, she brings fresh perspectives to creating intuitive interfaces for the API client. Kate is passionate about learning more about component design and responsive layouts. Her willingness to experiment with new approaches often leads to innovative solutions that more experienced developers might overlook.",
+    "description3": "Alexandr is an ambitious newcomer who's fascinated by the challenges of API integration. While still building his experience, Alex took on authentication implementation and data handling with determination. He enjoys diving into documentation and is not intimidated by complex technical specifications. His methodical approach to problem-solving helps the team overcome unexpected integration obstacles."
+  },
+  "rest": {
+    "send": "Send",
+    "sending": "Sending...",
+    "headers": "Headers:",
+    "addHeader": "Add header",
+    "key": "Key",
+    "value": "Value",
+    "action": "Action",
+    "headerName": "Header name",
+    "headerValue": "Header value",
+    "code": "Code:",
+    "requestBody": "Body:",
+    "responseBody": "Body:",
+    "response": "Response:",
+    "status": "Status:"
+  },
+  "history": {
+    "history": "History",
+    "date": "Date:",
+    "method": "Method:",
+    "url": "URL:",
+    "noItems": "No history items"
+  },
+  "variables": {
+    "var": "Variables",
+    "key": "Key",
+    "value": "Value",
+    "action": "Action",
+    "add": "Add",
+    "remove": "Remove",
+    "varName": "Variable Name",
+    "varValue": "Variable Value"
+  }
+}

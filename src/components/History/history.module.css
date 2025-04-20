@@ -1,0 +1,20 @@
+.history__container {
+  gap: 30px;
+  width: 100%;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+.history__item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  border-bottom: 2px solid var(--border-color);
+  transition: all 0.3s;
+}
+.history__item:hover {
+  background-color: var(--hover-button);
+}
+.history__item_method {
+  font-weight: bold;
+}

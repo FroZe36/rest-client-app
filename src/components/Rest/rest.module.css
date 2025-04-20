@@ -1,0 +1,116 @@
+.rest {
+  gap: 30px;
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+  }
+  .container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .container_nested {
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container_requestbody {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    color: var(--accent-green);
+    font-weight: var(--fw-regular);
+  }
+  .headers__table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin-left: 5px;
+  }
+  .headers__table input {
+    background-color: var(--bg-dark);
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    font-size: var(--fs-medium);
+    font-weight: var(--fw-regular);
+    color: var(--white);
+  }
+  .headers__table th {
+    color: var(--gray-200);
+    font-weight: var(--fw-semiBold);
+    text-align: left;
+  }
+  .headers__table :is(th, td) {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .container_search {
+    flex: 5;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 4px;
+    gap: 10px;
+  }
+  .selectSearch {
+    flex: 0 1 auto;
+  }
+  .inputSearch {
+    flex: 1 1 auto;
+    padding: 15px;
+    border: none;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    border-left: 4px solid var(--border-color);
+    background-color: var(--bg-dark);
+    outline: none;
+    font-size: var(--fs-medium);
+    color: var(--white);
+  }
+  :is(.input)::placeholder {
+    color: var(--gray-500);
+  }
+  .button {
+    flex: 1;
+  }
+  .button_border {
+    border: 1px solid var(--border-color);
+    color: var(--white);
+    background-color: transparent;
+  }
+  .response {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    padding-left: 20px;
+
+    .response__container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .response__precode {
+      height: 40vh;
+      overflow: scroll;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: var(--fw-medium);
+      color: var(--white);
+    }
+    .response__maintext {
+      color: var(--gray-200);
+      font-weight: var(--fw-semiBold);
+      .span {
+        font-size: var(--fs-medium);
+        font-weight: var(--fw-regular);
+        color: var(--white);
+      }
+    }
+  }
+}

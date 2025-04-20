@@ -1,0 +1,195 @@
+:root {
+  --black-900: #1a1a1a;
+  --black-800: #1c1c1c;
+  --black-700: #242424;
+
+  --accent-green: #caff33;
+
+  --white: #ffffff;
+  --gray-200: #b3b3b3;
+  --gray-300: #bfbfbf;
+  --gray-500: #59595a;
+
+  --border-color: var(--black-700);
+  --hover-button: var(--black-700);
+  --active-button: var(--accent-green);
+  --bg-dark: var(--black-900);
+  --bg-grey: var(--black-800);
+
+  --fs-big: 48px;
+  --fs-medium: 18px;
+  --border-radius: 80px;
+
+  --fw-regular: 300;
+  --fw-medium: 400;
+  --fw-semiBold: 500;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-exo);
+}
+
+body {
+  background: url('../../../public/background.svg') no-repeat top left/100vw
+    fixed;
+  background-size: cover;
+}
+
+.appWrapper {
+  display: flex;
+  max-width: 1240px;
+  margin: 0px auto;
+  padding: 20px 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-medium);
+  min-height: 100vh;
+}
+
+:is(header, footer) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-grey);
+  border: 1px solid var(--border-color);
+}
+
+header {
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+}
+
+main {
+  padding: 40px 30px;
+  flex: 1 0 auto;
+}
+
+footer {
+  background-color: var(--bg-dark);
+  span {
+    color: var(--gray-200);
+    font-weight: var(--fw-regular);
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+h2,
+h3 {
+  font-weight: var(--fw-medium);
+}
+
+:is(button:not(:disabled), select) {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.button {
+  border: none;
+}
+
+.button {
+  font-size: var(--fs-medium);
+  padding: 12px 24px;
+  transition: 0.2s all;
+  border-radius: var(--border-radius);
+}
+
+:is(.button:not(:is(.active, .button_colored)):hover, select:hover) {
+  background-color: var(--hover-button);
+  color: var(--white);
+}
+
+:is(.button_colored, .active) {
+  background-color: var(--active-button);
+  color: var(--black-800);
+}
+
+select {
+  padding: 10px 15px;
+  border: 1px solid var(--border-color);
+  font-size: var(--fs-medium);
+  outline: none;
+  border-radius: var(--border-radius);
+  background-color: inherit;
+  color: var(--white);
+}
+
+select:focus {
+  background-color: var(--hover-button);
+}
+
+.home {
+  width: 600px;
+  align-items: flex-start;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.maintext {
+  font-size: var(--fs-big);
+  font-weight: var(--fw-semiBold);
+}
+
+.maintext_green {
+  color: var(--accent-green);
+}
+
+.subtext {
+  color: var(--gray-300);
+  font-weight: var(--fw-regular);
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__namedLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+:is(.syntax-scrollbar, .cm-scroller)::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+:is(.syntax-scrollbar, .cm-scroller)::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:is(.syntax-scrollbar, .cm-scroller)::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+:is(.syntax-scrollbar, .cm-scroller)::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
